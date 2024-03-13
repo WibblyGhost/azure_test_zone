@@ -1,0 +1,94 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.002.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "exercise-service-bus", "exercise-service-bus", "{A426A75E-C931-4471-9ADD-788975E56E66}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "mslearn-connect-services-together", "mslearn-connect-services-together", "{FF6DFE73-EECC-43BD-B6C0-0D16F9469DAE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "implement-message-workflows-with-service-bus", "implement-message-workflows-with-service-bus", "{83A727C9-9B0D-4232-B10D-044D3ECCF6E5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{A4FB1B26-7483-467B-A15C-51C73C49C9D4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "final", "final", "{C1A296D5-37A0-49C1-A98C-811C0BCC17F8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "performancemessagereceiver", "exercise-service-bus\mslearn-connect-services-together\implement-message-workflows-with-service-bus\src\final\performancemessagereceiver\performancemessagereceiver.csproj", "{E02D7269-F878-4E88-8661-E415477E4AE0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "performancemessagesender", "exercise-service-bus\mslearn-connect-services-together\implement-message-workflows-with-service-bus\src\final\performancemessagesender\performancemessagesender.csproj", "{81A2F33D-EF0F-405F-BEF2-54EADB14C300}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "privatemessagereceiver", "exercise-service-bus\mslearn-connect-services-together\implement-message-workflows-with-service-bus\src\final\privatemessagereceiver\privatemessagereceiver.csproj", "{1535F7E0-8025-4FC3-A6C4-CF2EF8B8A7C8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "privatemessagesender", "exercise-service-bus\mslearn-connect-services-together\implement-message-workflows-with-service-bus\src\final\privatemessagesender\privatemessagesender.csproj", "{DABCBD86-BF30-430D-9A59-A7774DBCEF5A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "start", "start", "{E1073ED4-8F90-414A-BABB-452A3AA594BE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "performancemessagereceiver", "exercise-service-bus\mslearn-connect-services-together\implement-message-workflows-with-service-bus\src\start\performancemessagereceiver\performancemessagereceiver.csproj", "{F498FDB1-6B93-42C3-998C-0F48FC416B9C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "performancemessagesender", "exercise-service-bus\mslearn-connect-services-together\implement-message-workflows-with-service-bus\src\start\performancemessagesender\performancemessagesender.csproj", "{3DB98EDA-6CC5-4B84-A32E-ADB7AF49A7D3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "privatemessagereceiver", "exercise-service-bus\mslearn-connect-services-together\implement-message-workflows-with-service-bus\src\start\privatemessagereceiver\privatemessagereceiver.csproj", "{42614EF4-EE70-42B6-9050-2C2E0F2D6568}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "privatemessagesender", "exercise-service-bus\mslearn-connect-services-together\implement-message-workflows-with-service-bus\src\start\privatemessagesender\privatemessagesender.csproj", "{9198AD0F-DC63-44B1-822D-4081BEF76AC2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E02D7269-F878-4E88-8661-E415477E4AE0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E02D7269-F878-4E88-8661-E415477E4AE0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E02D7269-F878-4E88-8661-E415477E4AE0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E02D7269-F878-4E88-8661-E415477E4AE0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{81A2F33D-EF0F-405F-BEF2-54EADB14C300}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{81A2F33D-EF0F-405F-BEF2-54EADB14C300}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{81A2F33D-EF0F-405F-BEF2-54EADB14C300}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{81A2F33D-EF0F-405F-BEF2-54EADB14C300}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1535F7E0-8025-4FC3-A6C4-CF2EF8B8A7C8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1535F7E0-8025-4FC3-A6C4-CF2EF8B8A7C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1535F7E0-8025-4FC3-A6C4-CF2EF8B8A7C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1535F7E0-8025-4FC3-A6C4-CF2EF8B8A7C8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DABCBD86-BF30-430D-9A59-A7774DBCEF5A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DABCBD86-BF30-430D-9A59-A7774DBCEF5A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DABCBD86-BF30-430D-9A59-A7774DBCEF5A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DABCBD86-BF30-430D-9A59-A7774DBCEF5A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F498FDB1-6B93-42C3-998C-0F48FC416B9C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F498FDB1-6B93-42C3-998C-0F48FC416B9C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F498FDB1-6B93-42C3-998C-0F48FC416B9C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F498FDB1-6B93-42C3-998C-0F48FC416B9C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3DB98EDA-6CC5-4B84-A32E-ADB7AF49A7D3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3DB98EDA-6CC5-4B84-A32E-ADB7AF49A7D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3DB98EDA-6CC5-4B84-A32E-ADB7AF49A7D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3DB98EDA-6CC5-4B84-A32E-ADB7AF49A7D3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{42614EF4-EE70-42B6-9050-2C2E0F2D6568}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{42614EF4-EE70-42B6-9050-2C2E0F2D6568}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{42614EF4-EE70-42B6-9050-2C2E0F2D6568}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{42614EF4-EE70-42B6-9050-2C2E0F2D6568}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9198AD0F-DC63-44B1-822D-4081BEF76AC2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9198AD0F-DC63-44B1-822D-4081BEF76AC2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9198AD0F-DC63-44B1-822D-4081BEF76AC2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9198AD0F-DC63-44B1-822D-4081BEF76AC2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{FF6DFE73-EECC-43BD-B6C0-0D16F9469DAE} = {A426A75E-C931-4471-9ADD-788975E56E66}
+		{83A727C9-9B0D-4232-B10D-044D3ECCF6E5} = {FF6DFE73-EECC-43BD-B6C0-0D16F9469DAE}
+		{A4FB1B26-7483-467B-A15C-51C73C49C9D4} = {83A727C9-9B0D-4232-B10D-044D3ECCF6E5}
+		{C1A296D5-37A0-49C1-A98C-811C0BCC17F8} = {A4FB1B26-7483-467B-A15C-51C73C49C9D4}
+		{E02D7269-F878-4E88-8661-E415477E4AE0} = {C1A296D5-37A0-49C1-A98C-811C0BCC17F8}
+		{81A2F33D-EF0F-405F-BEF2-54EADB14C300} = {C1A296D5-37A0-49C1-A98C-811C0BCC17F8}
+		{1535F7E0-8025-4FC3-A6C4-CF2EF8B8A7C8} = {C1A296D5-37A0-49C1-A98C-811C0BCC17F8}
+		{DABCBD86-BF30-430D-9A59-A7774DBCEF5A} = {C1A296D5-37A0-49C1-A98C-811C0BCC17F8}
+		{E1073ED4-8F90-414A-BABB-452A3AA594BE} = {A4FB1B26-7483-467B-A15C-51C73C49C9D4}
+		{F498FDB1-6B93-42C3-998C-0F48FC416B9C} = {E1073ED4-8F90-414A-BABB-452A3AA594BE}
+		{3DB98EDA-6CC5-4B84-A32E-ADB7AF49A7D3} = {E1073ED4-8F90-414A-BABB-452A3AA594BE}
+		{42614EF4-EE70-42B6-9050-2C2E0F2D6568} = {E1073ED4-8F90-414A-BABB-452A3AA594BE}
+		{9198AD0F-DC63-44B1-822D-4081BEF76AC2} = {E1073ED4-8F90-414A-BABB-452A3AA594BE}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C95534DD-5A16-4E86-A812-4C7588562A2E}
+	EndGlobalSection
+EndGlobal
